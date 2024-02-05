@@ -5,53 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad263890-1bb0-44e9-9e0b-3fbae4fe1b0b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTrees/1.PreOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTrees/2.InOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTrees/3.PostOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTrees/4.LevelOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTrees/5.ThreeTreeTravesal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTrees/6.HeightOfTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTrees/7.BalancedOrNot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Greedy_Algo/Minimum_Platforms .java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Greedy_Algo/N_meetings_In_a_Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/1.Search in Linked List.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/2.Reverse a linked list.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/3.Insert in Middle of Linked List.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/3.a.middle-of-the-linked-list.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/4.Detect Loop in linked list.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/5.Find the first node of loop in linked list.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/6.Find length of Loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/7.Check if Linked List is Palindrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/8.Reverse a DLL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/9.Add two numbers represented by linked lists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queues/1.Queue using array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queues/2.Queue using two Stacks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queues/3.Queue Reversal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queues/4.Reverse First K elements of Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queues/5.Circular tour.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queues/6.First non-repeating character in a stream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queues/7.LRU Cache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queues/8.Minimum Cost of ropes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion&amp;BackTracking/1.Print 1 To N Without Loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion&amp;BackTracking/2.Factorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion&amp;BackTracking/3.Palindrome String.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion&amp;BackTracking/4.Fibonacci Number.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion&amp;BackTracking/5.Subsets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion&amp;BackTracking/6.Subsets-2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion&amp;BackTracking/7.Check for subsequence with sum K.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion&amp;BackTracking/8.Combination sum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion&amp;BackTracking/9.Combination sum-2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/1.stack using array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/2.two stacks in an array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/3.Stack using two queues.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/4.Parenthesis Checker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/5.Get minimum element from stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/6.Next Greater Element.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/7.Next Greater Element 2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/8.Help Classmates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/9.Stock span problem.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
