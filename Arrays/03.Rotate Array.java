@@ -55,6 +55,7 @@ class GFG
 // but this, will consume an extra space for array.
 //hence, use reverse method
 
+//Tc: O(2N)
 class Solution
 {
     static void reverse(int arr[], int st, int ed)
