@@ -9,6 +9,8 @@ import java.util.*;
 
 // } Driver Code Ends
 
+//Just counting no.of 0,1,2 and printing them also works, but TC: O(2N)
+
 //This problem is a variation of the popular Dutch National flag algorithm.
 
 // This algorithm contains 3 pointers i.e. low, mid, and high, and 3 main rules.  The rules are the following:
@@ -21,6 +23,7 @@ class Solution
 {
     public static void sort012(int arr[], int n)
     {
+        //Tc: O(N), sc: O(1)
         int low = 0; int mid =0; int high = n-1;
         while(mid<=high)
         {

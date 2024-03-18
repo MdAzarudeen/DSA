@@ -36,6 +36,8 @@ public class Main {
 
 class Solution {
     boolean hasArrayTwoCandidates(int arr[], int n, int x) {
+        //Tc: O(N)+O(N logN)
+        //Sc: O(1)
         Arrays.sort(arr);
         int left = 0;
         int right = n-1;

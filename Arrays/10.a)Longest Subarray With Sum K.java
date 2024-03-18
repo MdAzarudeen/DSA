@@ -2,6 +2,7 @@ https://www.codingninjas.com/studio/problems/longest-subarray-with-sum-k_6682399
 
 public class Solution {
     public static int longestSubarrayWithSumK(int []arr, long k) {
+        //Tc: O(2N)  this will work for zeros and positive numbers in arrays
         int n = arr.length;
         int maxlen =0;
         int left = 0; int right =0;

@@ -4,6 +4,8 @@ import java.util.* ;
 import java.io.*;
 public class Solution
 {
+    //Tc: O(N+M)
+    //Sc: O(1) best case // O(N+M) in worst case
     public static ArrayList<Integer> findArrayIntersection(ArrayList<Integer> a, int n, ArrayList<Integer> b, int m)
     {
         int i=0;

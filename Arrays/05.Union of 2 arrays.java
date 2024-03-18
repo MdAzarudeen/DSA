@@ -2,6 +2,9 @@ https://www.codingninjas.com/studio/problems/sorted-array_6613259?leftPanelTabVa
 
 import java.util.*;
 public class Solution {
+
+    //Tc: O(N+M)
+    //Sc: O(N+M)
     public static List< Integer > sortedArray(int []a, int []b) {
         int n = a.length;
         int m = b.length;

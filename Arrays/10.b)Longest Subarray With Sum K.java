@@ -3,6 +3,7 @@ https://www.codingninjas.com/studio/problems/longest-subarray-with-sum-k_5713505
 import java.util.* ;
 import java.io.*;
 public class Solution {
+    //Tc: O(N*N)  this will work for negative numbers in arrays also
     public static int getLongestSubarray(int []arr, int k) {
         int n = arr.length;
         int maxlen =0;

@@ -34,6 +34,7 @@ class GFG{
 // User function Template for Java
 
 class Solution{
+//tc: O(3N), sc: O(N) or O(1)
     static List<Integer> nextPermutation(int n, int arr[]){
         int idx = -1;
 // Step 1: Find the break point

@@ -36,6 +36,10 @@ public class Main {
 
 class Solution {
     void pushZerosToEnd(int[] arr, int n) {
+
+        //Tc:O(N) bcoz till we find index where zero is present, half of the array gets traversed
+        //then we traverse the remaining array
+        //hence O(N) will be the Tc
         int j = -1;
         for(int i=0; i<n; i++)
         {
