@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad263890-1bb0-44e9-9e0b-3fbae4fe1b0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/04.Move all zeroes to end of array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/04.Move all zeroes to end of array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/05.Union of 2 arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/05.Union of 2 arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/06.Intersection of 2 arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/06.Intersection of 2 arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/10.a)Longest Subarray With Sum K.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/10.a)Longest Subarray With Sum K.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/10.b)Longest Subarray With Sum K.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/10.b)Longest Subarray With Sum K.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/11.a)Two sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/11.a)Two sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/11.b)Two sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/11.b)Two sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/12.Sort an array of 0s, 1s and 2s.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/12.Sort an array of 0s, 1s and 2s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/17.Next Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/17.Next Permutations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
