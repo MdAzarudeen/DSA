@@ -32,6 +32,8 @@ class GFG {
 // } Driver Code Ends
 
 
+
+
 class solve {
     // Function to determine if graph can be coloured with at most M colours
     // such
@@ -46,7 +48,7 @@ class solve {
 
         for(int i=1; i<=m; i++)
         {
-            if(isSafe(graph,i,n,color,node)==true)
+            if(isSafe(graph,n,i,color,node)==true)
             {
                 color[node]=i;
 
@@ -57,7 +59,7 @@ class solve {
         }
         return false;
     }
-    public boolean isSafe(boolean graph[][], int c, int n, int[] color, int node)
+    public boolean isSafe(boolean graph[][], int n, int c, int[] color, int node)
     {
         for(int i=0; i<n; i++)
         {
