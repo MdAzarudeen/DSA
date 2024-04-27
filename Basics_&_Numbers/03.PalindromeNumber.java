@@ -1,0 +1,48 @@
+https://www.geeksforgeeks.org/problems/palindrome0746/1
+
+//{ Driver Code Starts
+//Initial Template for Java
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class GFG
+{
+    public static void main(String[] args) throws IOException
+    {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int T = Integer.parseInt(br.readLine().trim());
+        while(T-->0)
+        {
+            int n = Integer.parseInt(br.readLine().trim());
+            Solution ob = new Solution();
+            String ans = ob.is_palindrome(n);
+            System.out.println(ans);
+        }
+    }
+}
+
+
+// } Driver Code Ends
+
+
+//Time Complexity: O(log10(n)) where n is the input number.
+//Auxiliary space: O(1)
+
+class Solution
+{
+    public String is_palindrome(int n)
+    {
+        int temp = n;
+        int reverse = 0;
+        while(n>0)
+        {
+            int last = n%10;
+            reverse = reverse*10 + last;
+            n=n/10;
+        }
+        if(temp==reverse)   return "Yes";
+        return "No";
+    }
+}
+

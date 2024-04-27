@@ -1,5 +1,4 @@
 https://www.geeksforgeeks.org/problems/prime-number2314/1
-
 //Tc:O(N), Sc: O(1)
 
 class Solution{
