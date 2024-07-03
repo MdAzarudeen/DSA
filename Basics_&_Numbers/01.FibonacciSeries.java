@@ -1,6 +1,6 @@
 https://leetcode.com/problems/fibonacci-number/
 
-//With Recursion
+//With Recursion Tc- O(2^N)
 class Solution {
     public int fib(int n) {
         if(n<=1) return n;

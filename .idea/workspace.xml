@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ad263890-1bb0-44e9-9e0b-3fbae4fe1b0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics_&amp;_Numbers/02.PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_&amp;_Numbers/02.PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/17.Next Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/17.Next Permutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics_&amp;_Numbers/01.FibonacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_&amp;_Numbers/01.FibonacciSeries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics_&amp;_Numbers/07.Random&amp;ASCII.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_&amp;_Numbers/07.Random&amp;ASCII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/22.Quick Sort.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

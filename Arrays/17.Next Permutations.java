@@ -46,6 +46,9 @@ class Solution{
                 break;
             }
         }
+//
+//        arr = {1, 2, 3, 6, 5, 4}
+//        Output: {1, 2, 4, 3, 5, 6}
 // Step 2: Find the next greater element and swap it with arr[ind]:
         if(idx!=-1)
         {
