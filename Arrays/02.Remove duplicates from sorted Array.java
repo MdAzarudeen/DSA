@@ -46,3 +46,21 @@ class Solution {
         return i+1;
     }
 }
+
+//Solution 2
+
+class Solution {
+    ArrayList<Integer> removeDuplicates(int[] arr) {
+        ArrayList<Integer> sol = new ArrayList<>();
+        sol.add(arr[0]);
+        int i=0;
+        for(int j=1; j<arr.length; j++){
+            if(arr[i]!=arr[j])  {
+                sol.add(arr[j]);
+                arr[i+1] = arr[j];
+                i++;
+            }
+        }
+        return sol;
+    }
+}
