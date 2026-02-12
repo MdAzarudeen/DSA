@@ -1,5 +1,7 @@
 https://leetcode.com/problems/max-consecutive-ones/description/
 
+https://takeuforward.org/data-structure/count-maximum-consecutive-ones-in-the-array
+
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums)
     {

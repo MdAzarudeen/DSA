@@ -5,7 +5,8 @@ https://www.codingninjas.com/studio/problems/longest-subarray-with-sum-k_5713505
 import java.util.* ;
 import java.io.*;
 public class Solution {
-    //Tc: O(N*N)  this will work for negative numbers in arrays also
+//    Time Complexity: O(N) or O(N*logN) depending on which map data structure we are using, where N = size of the array.
+//if we use tree map, tc will be O(N*logN)
     public static int getLongestSubarray(int []a, int k) {
         // prefix sum approach
         HashMap<Integer,Integer> map = new HashMap<>();

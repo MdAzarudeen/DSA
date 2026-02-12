@@ -4,14 +4,15 @@ https://takeuforward.org/data-structure/longest-subarray-with-given-sum-k
 
 public class Solution {
     public static int longestSubarrayWithSumK(int []arr, long k) {
-        //Tc: O(2N)  this will work for zeros and positive numbers in arrays
-        //Sliding window approach
-        int right =0; int left=0; int sum=a[0]; int maxlen=0; int n= a.length;
+        //Tc: O(N)  this will work for zeros and positive numbers in arrays
+        //  Sliding window approach
+        int right =0; int left=0; long sum=0; int maxlen=0; int n= a.length;
 
         while(right<n) //traverse through array
         {
+            sum += a[right];
             //shrink by left if sum>k
-            if(left<=right && sum>k){
+            while(left<=right && sum>k){
                 sum-=a[left];
                 left++;
             }
@@ -22,8 +23,8 @@ public class Solution {
 
             //expand right
             right++;
-            if(right<n)
-                sum+=a[right];
+            // if(right<n)
+            //     sum+=a[right];
         }
         return maxlen;
     }

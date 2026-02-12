@@ -1,5 +1,7 @@
 https://leetcode.com/problems/majority-element/description/
 
+https://takeuforward.org/data-structure/find-the-majority-element-that-occurs-more-than-n-2-times
+
 class Solution {
     public int majorityElement(int[] nums) {
         //Moore's Voting Algorithm

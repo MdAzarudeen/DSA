@@ -1,5 +1,7 @@
 https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
 
+        https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array
+
 //{ Driver Code Starts
 import java.io.*;
 

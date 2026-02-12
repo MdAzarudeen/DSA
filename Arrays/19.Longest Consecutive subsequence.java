@@ -86,3 +86,26 @@ class Solution
         return longest;
     }
 }
+
+//without sorting
+class Solution {
+
+    // Function to return length of longest subsequence of consecutive integers.
+    public int longestConsecutive(int[] arr) {
+        Set<Integer> set = new HashSet<>();
+        for(int a: arr) set.add(a);
+        int longest = 1; int ct=0; int x=0;
+        for(int num: set){
+            if(!set.contains(num-1)){
+                ct=1;
+                x=num;
+            }
+            while(set.contains(x+1)){
+                ct++;
+                x++;
+            }
+            longest =Math.max(longest,ct);
+        }
+        return longest;
+    }
+}

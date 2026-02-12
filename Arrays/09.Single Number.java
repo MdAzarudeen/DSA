@@ -1,5 +1,7 @@
 https://leetcode.com/problems/single-number/description/
 
+https://takeuforward.org/arrays/find-the-number-that-appears-once-and-the-other-numbers-twice
+
 class Solution {
     public int singleNumber(int[] nums) {
         int n = nums.length;

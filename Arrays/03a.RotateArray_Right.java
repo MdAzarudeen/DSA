@@ -1,5 +1,7 @@
 https://leetcode.com/problems/rotate-array/description/
 
+https://takeuforward.org/data-structure/rotate-array-by-k-elements
+
 class Solution {
     public void reverse(int[]arr, int st, int ed)
     {

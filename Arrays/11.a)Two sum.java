@@ -1,5 +1,8 @@
 https://www.geeksforgeeks.org/problems/key-pair5616/1?itm_source=geeksforgeeks&itm_medium=Article&itm_campaign=bottom_sticky_on_Article
 
+        https://takeuforward.org/data-structure/two-sum-check-if-a-pair-with-given-sum-exists-in-array
+
+
 //{ Driver Code Starts
 //Initial Template for Java
 
@@ -51,3 +54,19 @@ class Solution {
         return false;
     }
 }
+
+
+// without sorting
+
+Map<Integer,Integer> map = new HashMap<>();
+int n=arr.length;
+
+        for(int i=0; i<n; i++)
+        {
+int diff = k-arr[i];
+
+            if(map.containsKey(diff))   return true;
+
+        map.put(arr[i],i);
+        }
+                return false;

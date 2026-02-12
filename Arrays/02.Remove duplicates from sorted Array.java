@@ -1,5 +1,8 @@
 https://www.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1?itm_source=geeksforgeeks&itm_medium=Article&itm_campaign=bottom_sticky_on_Article
 
+
+        https://takeuforward.org/data-structure/remove-duplicates-in-place-from-sorted-array
+
 //{ Driver Code Starts
 //Initial Template for Java
 

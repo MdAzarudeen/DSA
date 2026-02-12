@@ -1,4 +1,13 @@
 https://leetcode.com/problems/majority-element-ii/
+https://takeuforward.org/data-structure/majority-elementsn-3-times-find-the-elements-that-appears-more-than-n-3-times-in-the-array
+
+
+//To understand why there can't be more than two majority elements (elements that appear more than n/3 times) in an array of size n, let's consider the following reasoning:
+//A majority element must appear more than n/3 times. Let’s assume there are more than two majority elements, say A, B, and C.
+//The combined frequency of these three elements would be: frequency of A + frequency of B + frequency of C > n/3 + n/3 + n/3 = n.
+//Since the total occurrences of all elements cannot exceed n (the size of the array), the combined frequency of any three elements each appearing more than n/3 times would exceed the total size of the array, leading to a contradiction.
+//Therefore, it is mathematically impossible to have more than two elements that each appear more than n/3 times in the array.
+
 
 //Better Solution
 

@@ -1,5 +1,7 @@
 https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
 
+        https://takeuforward.org/arrays/find-the-missing-number-in-an-array
+
 //{ Driver Code Starts
 // Initial Template for Java
 
@@ -49,7 +51,7 @@ class Solution {
         int xor1 = 0;
         for(int i=1; i<=n; i++)
             xor1 = xor1 ^ (i);  // will not overflow more than the original number
-
+        xor1 = xor1 ^ n+1;
         int xor2 = 0;
         for(int i=0; i<arr.length; i++)
             xor2 = xor2 ^ arr[i];

@@ -24,6 +24,18 @@ class Solution {
                 arr[i][n-1-j]=temp;
             }
         }
-
+// another way to reverse
+        //reverse
+        for(int i=0; i<n; i++)
+        {
+            int left=0; int right=n-1;
+            while(left<right){
+                int temp = mat[i][left];
+                mat[i][left]=mat[i][right];
+                mat[i][right]=temp;
+                left++;
+                right--;
+            }
+        }
     }
 }

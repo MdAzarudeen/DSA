@@ -1,5 +1,7 @@
 https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1?itm_source=geeksforgeeks&itm_medium=Article&itm_campaign=bottom_sticky_on_Article
 
+        https://takeuforward.org/data-structure/sort-an-array-of-0s-1s-and-2s
+
 //{ Driver Code Starts
 //Initial template for Java
 

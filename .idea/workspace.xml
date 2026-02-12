@@ -4,12 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad263890-1bb0-44e9-9e0b-3fbae4fe1b0b" name="Changes" comment="">
+    <list default="true" id="ad263890-1bb0-44e9-9e0b-3fbae4fe1b0b" name="Changes" comment="new changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/17.Next Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/17.Next Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics_&amp;_Numbers/01.FibonacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_&amp;_Numbers/01.FibonacciSeries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics_&amp;_Numbers/07.Random&amp;ASCII.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_&amp;_Numbers/07.Random&amp;ASCII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/22.Quick Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/02.Remove duplicates from sorted Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/02.Remove duplicates from sorted Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/03.Rotate Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/03.Rotate Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/03a.RotateArray_Right.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/03a.RotateArray_Right.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/04.Move all zeroes to end of array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/04.Move all zeroes to end of array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/05.Union of 2 arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/05.Union of 2 arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/07.Missing number in array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/07.Missing number in array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/08.Max Consecutive ones.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/08.Max Consecutive ones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/09.Single Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/09.Single Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/10.a)Longest Subarray With Sum K.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/10.a)Longest Subarray With Sum K.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/10.b)Longest Subarray With Sum K.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/10.b)Longest Subarray With Sum K.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/11.a)Two sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/11.a)Two sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/11.b)Two sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/11.b)Two sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/12.Sort an array of 0s, 1s and 2s.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/12.Sort an array of 0s, 1s and 2s.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/13.Majority element.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/13.Majority element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/13.MajorityElement2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/13.MajorityElement2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/14.Kadane's Algo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/14.Kadane's Algo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/15.b)Arrange elements by sign.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/15.b)Arrange elements by sign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/19.Longest Consecutive subsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/19.Longest Consecutive subsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/20.Set Matrix Zeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/20.Set Matrix Zeroes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +35,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MdAzarudeen&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MdAzarudeen/DSA.git&quot;,
+    &quot;accountId&quot;: &quot;17ac7322-3d63-425a-8910-593e8395cae2&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Recursion&amp;BackTracking/04.Fibonacci Number.java" root0="SKIP_INSPECTION" />
   </component>
@@ -45,6 +73,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Azarudeen/Downloads/demo (1)/DSA_Problems&quot;
@@ -90,6 +120,37 @@
       <option name="presentableId" value="Default" />
       <updated>1703900911806</updated>
     </task>
+    <task id="LOCAL-00001" summary="check">
+      <option name="closed" value="true" />
+      <created>1769160668749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1769160668749</updated>
+    </task>
+    <task id="LOCAL-00002" summary="started with dp series">
+      <option name="closed" value="true" />
+      <created>1769160991655</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769160991655</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new changes">
+      <option name="closed" value="true" />
+      <created>1769404357112</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769404357112</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="check" />
+    <MESSAGE value="started with dp series" />
+    <MESSAGE value="new changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new changes" />
   </component>
 </project>

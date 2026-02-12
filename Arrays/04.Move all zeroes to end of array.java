@@ -1,5 +1,7 @@
 https://www.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
 
+        https://takeuforward.org/data-structure/move-all-zeros-to-the-end-of-the-array
+
 //{ Driver Code Starts
 //Initial Template for Java
 
@@ -37,6 +39,8 @@ public class Main {
 class Solution {
     void pushZerosToEnd(int[] arr, int n) {
 
+
+        //Two pointer approach
         //Tc:O(N) bcoz till we find index where zero is present, half of the array gets traversed
         //then we traverse the remaining array
         //hence O(N) will be the Tc

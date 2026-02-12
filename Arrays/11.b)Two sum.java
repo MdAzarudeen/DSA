@@ -1,9 +1,11 @@
 https://leetcode.com/problems/two-sum/description/
 
+https://takeuforward.org/data-structure/two-sum-check-if-a-pair-with-given-sum-exists-in-array
+
 class Solution {
     public int[] twoSum(int[] arr, int x)
     {
-        //Tc: O(N*N)
+        //Tc: O(N)
         //Sc: O(N)
         int[]ans = new int[2];
         HashMap<Integer,Integer> map = new HashMap<>();
