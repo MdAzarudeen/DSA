@@ -45,3 +45,19 @@ class GFG {
         }
         return res;
     }
+
+
+    // 1-based indexing
+
+class Solution {
+    public int pascalTriangleI(int a, int b) {
+        int n=a-1;
+        int r= b-1; int res=1;
+
+        for(int i=0; i<r; i++){
+            res = res * (n-i);
+            res = res / (i+1);
+        }
+        return res;
+    }
+}
