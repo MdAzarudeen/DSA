@@ -1,0 +1,28 @@
+https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
+
+class Solution {
+    public int majorityElement(int[] nums) {
+        int ct=0; int ans=0;
+
+  // Step 1: Find the potential majority element
+        for(int i=0; i<nums.length; i++){
+            if(ct==0){
+                ans=nums[i];
+                ct++;
+            }else if(nums[i]==ans)  ct++;
+            else ct--;
+        }
+
+        // Step 2: Verify the candidate
+        int ct1=0;
+         for(int i=0; i<nums.length; i++){
+            if(nums[i]==ans) ct1++;
+         }
+        // Return the element if it's a majority
+
+         if(ct1>nums.length/2)  return ans;
+
+         return -1;
+
+    }
+}
