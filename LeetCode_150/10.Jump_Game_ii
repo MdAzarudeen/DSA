@@ -1,0 +1,52 @@
+https://leetcode.com/problems/jump-game-ii/description/?envType=study-plan-v2&envId=top-interview-150
+
+https://takeuforward.org/data-structure/jump-game-2
+
+//Solution 1 -> from take u forward video, but not in his code
+
+class Solution {
+    public int jump(int[] nums) {
+        int left=0; int right=0;
+        int jumps=0;
+//Iterate till second last index
+        while(right<nums.length-1){
+            int farthest=0;
+            for(int i=left; i<=right; i++){
+                farthest=Math.max(farthest, i+nums[i]);
+            }
+            left=right;
+            right=farthest;
+            jumps++;
+        }
+        return jumps;
+    }
+}
+
+//Solution 2 -> from take u forward's code
+class Solution {
+     // Function to compute the minimum number of jumps to reach the last index
+    public int jump(int[] nums) {
+        // Initialize jumps and range trackers
+        int jumps = 0;
+        int currentEnd = 0;
+        int farthest = 0;
+
+        // Loop through array up to second last index
+        for (int i = 0; i < nums.length - 1; i++) {
+            // Update the farthest index we can reach
+            farthest = Math.max(farthest, i + nums[i]);
+
+            // If current index reaches the end of current range
+            if (i == currentEnd) {
+                // Increment jump count
+                jumps++;
+
+                // Update range to the farthest index
+                currentEnd = farthest;
+            }
+        }
+
+        // Return the total number of jumps
+        return jumps;
+    }
+}

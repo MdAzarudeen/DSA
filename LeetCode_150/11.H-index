@@ -1,0 +1,14 @@
+https://leetcode.com/problems/h-index/description/?envType=study-plan-v2&envId=top-interview-150
+
+class Solution {
+    public int hIndex(int[] cit) {
+        Arrays.sort(cit);
+        int h =0;
+        for(int i=0; i<cit.length; i++)
+        {
+            h=cit.length-i;
+            if(cit[i]>=h)   return h;
+        }
+        return 0;
+    }
+}

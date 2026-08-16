@@ -1,0 +1,18 @@
+https://leetcode.com/problems/jump-game/?envType=study-plan-v2&envId=top-interview-150
+
+https://takeuforward.org/Greedy/jump-game-i
+
+class Solution {
+    public boolean canJump(int[] nums) {
+        int last=nums.length-1;
+
+        for(int i=nums.length-2; i>=0; i--){
+            if(nums[i]+i >= last)   last=i;
+        }
+
+        return last==0;
+    }
+}
+
+//basically, we have to check from "element before last index" is able to reach the last index.
+//If it is able to reach, define that index as last index and proceed.
