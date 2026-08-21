@@ -1,0 +1,55 @@
+//https://leetcode.com/problems/text-justification/?envType=study-plan-v2&envId=top-interview-150
+
+//https://algo.monster/liteproblems/68
+
+//Time Complexity: O(L) where L is the sum of the lengths of all words.
+
+//Space Complexity: O(L) where L is the sum of the lengths of all words.
+
+class Solution {
+    public List<String> fullJustify(String[] words, int maxWidth) {
+        List<String> result = new ArrayList<>();
+        int i=0;
+        int n = words.length;
+
+        while(i<n){
+// Collect words that can fit in the current line
+            List<String> currentLineWords = new ArrayList<>();
+            currentLineWords.add(words[i]);
+            int currentLineLength = words[i].length();
+            i++;
+// Add more words to currline while they fit (inc.. mini 1 space bw words)
+            while(i<n && currentLineLength+1+words[i].length() <= maxWidth){
+                currentLineLength += 1+words[i].length();
+                currentLineWords.add(words[i]);
+                i++;
+            }
+// Handle last line or single word line (left-justified
+            if(i==n || currentLineWords.size()==1 ){
+                String left = String.join(" ", currentLineWords);
+                String right = " ".repeat(maxWidth - left.length());
+                result.add(left + right);
+                continue;
+            }
+// Calculate spaces for full justification
+// Total spaces needed = maxWidth - sum of word lengths
+        int totalSpacesNeeded = maxWidth - (currentLineLength - currentLineWords.size() + 1);
+// Base spaces between each pair of words
+        int baseSpacesBetweenWords = totalSpacesNeeded / (currentLineWords.size() - 1);
+// Extra spaces to distribute from left to right
+        int extraSpaces = totalSpacesNeeded % (currentLineWords.size() - 1);
+// Build the fully justified line
+            StringBuilder currentLine = new StringBuilder();
+            for (int j = 0; j < currentLineWords.size() - 1; j++) {
+                currentLine.append(currentLineWords.get(j));
+// Add base spaces plus one extra space for the first 'extraSpaces' gaps
+        int spacesToAdd = baseSpacesBetweenWords + (j < extraSpaces ? 1 : 0);
+                currentLine.append(" ".repeat(spacesToAdd));
+            }
+// Append the last word without trailing spaces
+            currentLine.append(currentLineWords.get(currentLineWords.size() - 1));
+            result.add(currentLine.toString());
+        }
+        return result;
+    }
+}

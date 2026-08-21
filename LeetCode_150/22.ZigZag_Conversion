@@ -1,0 +1,34 @@
+//https://leetcode.com/problems/zigzag-conversion/?envType=study-plan-v2&envId=top-interview-150
+
+//https://www.youtube.com/watch?v=VDu05ggjKhc
+
+// Time complexity-  O(N)
+// Space complexity- O(1)
+
+class Solution {
+    public String convert(String s, int numRows) {
+//if only 1 row needs to be formed, just return the string
+        if(numRows==1)  return s;
+
+        StringBuilder ans = new StringBuilder();
+        int n= s.length();
+    //this is to find how many chars come from one section to another in zigzag version
+        int charactersInSection = 2*(numRows-1);
+
+    for(int currRow=0; currRow<numRows; currRow++){
+        int i= currRow;
+        while(i<n){
+            ans.append(s.charAt(i));
+            if(currRow!=0 && currRow!=numRows-1){
+    //middle rows have diff chars in between them
+                int charactersInBetween = charactersInSection - 2*currRow;
+                int j= i+charactersInBetween;
+                if(j<n)
+                     ans.append(s.charAt(j));
+            }
+            i += charactersInSection;
+        }
+    }
+        return ans.toString();
+ }
+}

@@ -1,0 +1,22 @@
+//https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=top-interview-150
+
+class Solution {
+    public int[] productExceptSelf(int[] nums) {
+//product at an index = product at its left side * product at its right side
+        int n=nums.length;
+        int[] ans = new int[n];
+        int prodLeft = 1;
+        int prodRight = 1;
+
+        for(int i=n-1; i>=0; i--){
+            ans[i] = prodRight;
+            prodRight = prodRight*nums[i];
+        }
+
+        for(int i=0; i<n; i++){
+            ans[i] = ans[i]* prodLeft;
+            prodLeft = prodLeft* nums[i];
+        }
+        return ans;
+    }
+}

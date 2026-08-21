@@ -1,0 +1,24 @@
+//https://leetcode.com/problems/longest-common-prefix/?envType=study-plan-v2&envId=top-interview-150
+
+//Tc: O(N logn) due to sorting; Sc: O(1)
+
+class Solution {
+    public String longestCommonPrefix(String[] strs) {
+     StringBuilder ans = new StringBuilder();
+     Arrays.sort(strs);
+
+     char[] first = strs[0].toCharArray();
+     char[] last = strs[strs.length-1].toCharArray();
+
+     //Just compare first and last word after sorting
+
+     for(int i=0; i<first.length; i++){
+        if(first[i]!=last[i]){
+            break;
+        }else{
+            ans.append(first[i]);
+        }
+     }
+     return ans.toString();
+    }
+}
