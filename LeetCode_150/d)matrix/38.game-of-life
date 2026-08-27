@@ -1,0 +1,40 @@
+//https://leetcode.com/problems/game-of-life/?envType=study-plan-v2&envId=top-interview-150
+
+//Time: O(m * n) - where m and n are board dimensions
+// Space: O(1) - in-place modification
+
+class Solution {
+    public void gameOfLife(int[][] board) {
+        int n = board.length;
+        int m = board[0].length;
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                int liveNeighbours = countLiveNeighbours(board,i, j, n, m);
+                if(board[i][j]==1 && (liveNeighbours<2 || liveNeighbours>3))
+                    board[i][j]=-1; //was live, now dead
+                else if(board[i][j]==0 && liveNeighbours==3)
+                    board[i][j]=2; // was dead, now live
+            }
+        }
+
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                board[i][j] = board[i][j] > 0 ? 1 : 0;
+            }
+        }
+    }
+
+    private int countLiveNeighbours(int[][] board,int i, int j, int n, int m){
+        int count = 0;
+        for (int dr = -1; dr <= 1; dr++) {
+            for (int dc = -1; dc <= 1; dc++) {
+                if (dr == 0 && dc == 0) continue;
+                int nr = i + dr, nc = j + dc;
+                if (nr >= 0 && nr < n && nc >= 0 && nc < m && Math.abs(board[nr][nc]) == 1) {
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+}
